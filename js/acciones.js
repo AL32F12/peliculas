@@ -29,6 +29,7 @@ function ListarPeliculas()
  $(document).ready(function(e){
 	 document.addEventListener("deviceready",function(){
 		 $("#Listado").tap (function () {
+			 alert ("dentro");
 			 ListarPeliculas();
 		
 		$.mobile.changePage("page2");
